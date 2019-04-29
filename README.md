@@ -1,4 +1,4 @@
-# Dual Residual Networks
+== Dual Residual Networks ==
 By Xing Liu, Masanori Suganuma, Zhun Sun, Takayuki Okatani 
 
 Tohoku University, RIKEN Center for AIP
@@ -17,3 +17,5 @@ Tohoku University, RIKEN Center for AIP
 6) Train
 
 7) Test
+
+# Dual Residual Networks
