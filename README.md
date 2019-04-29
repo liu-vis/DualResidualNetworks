@@ -3,7 +3,7 @@ By Xing Liu<sup>1</sup>, [Suganuma Masanori](https://scholar.google.co.jp/citati
 
 Tohoku University<sup>1</sup>, RIKEN Center for AIP<sup>2</sup>
 
-[link to paper](https://arxiv.org/pdf/1903.08817.pdf)
+[link to the paper](https://arxiv.org/pdf/1903.08817.pdf)
 
 ## Table of Contents
 1) Abstract
