@@ -1,7 +1,7 @@
-== Dual Residual Networks ==
-By Xing Liu, Masanori Suganuma, Zhun Sun, Takayuki Okatani 
+# Dual Residual Networks 
+By Xing Liu<sup>1</sup>, [[https://scholar.google.co.jp/citations?user=NpWGfwgAAAAJ&hl=ja|Suganuma Masanori]]<sup>1,2</sup>, [[https://scholar.google.co.jp/citations?user=Y-3iZ9EAAAAJ&hl=en|Zhun Sun]]<sup>2</sup>, [[https://scholar.google.com/citations?user=gn780jcAAAAJ&hl=en|Takayuki Okatani]]<sup>1,2</sup> 
 
-Tohoku University, RIKEN Center for AIP
+Tohoku University<sup>1</sup>, RIKEN Center for AIP<sup>2</sup>
 
 # Table of Contents
 1) Introduction
