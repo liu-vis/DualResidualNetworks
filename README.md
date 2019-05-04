@@ -42,4 +42,4 @@ Please find them in the <code>test/results_confirmed.txt</code> file.
 
 ## Visual results
 ### Noise removal
-[[https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/gaussian_noise.pdf|alt=Gaussian noise removal]]
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/gaussian_noise.pdf)
