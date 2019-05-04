@@ -55,11 +55,11 @@ Some examples for object detection
 ![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_blur_detect.png)
 
 ### Haze removal - 1
-![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_haze_real.png)
-
-### Haze removal - 2
 The images are taken by iphone 6 plus
 ![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_haze_iphone.png)
+
+### Haze removal - 2
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_haze_real.png)
 
 ### Haze removal - 3
 Compare inside-feature maps with transmission map
