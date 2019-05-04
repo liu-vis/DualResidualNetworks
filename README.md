@@ -41,5 +41,29 @@ year={2019},
 Please find them in the <code>test/results_confirmed.txt</code> file.
 
 ## Visual results
-### Noise removal
-![9](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/gaussian_noise.pdf)
+### Gaussian noise removal
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/gaussian_noise.png)
+
+### Real-world noise removal
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/real_noise.png)
+
+### Motion blur removal
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_blur.png)
+
+### Haze removal - 1
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_haze_iphone.png)
+
+### Haze removal - 2
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_haze_real.png)
+
+### Haze removal - 3
+Compare inside-feature maps with transmission map
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_transmission.png)
+
+### Raindrop removal
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_raindrop.png)
+
+### Rain-streak removal
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_rain_syn.png)
+
+
