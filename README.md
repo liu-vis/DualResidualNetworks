@@ -59,7 +59,7 @@ The images are taken by iphone 6 plus
 ![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_haze_iphone.png)
 
 ### Haze removal - 2
-![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_haze_real.png)
+![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_haze_real_4ver.png)
 
 ### Haze removal - 3
 Compare inside-feature maps with transmission map
