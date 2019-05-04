@@ -51,6 +51,7 @@ Please find them in the <code>test/results_confirmed.txt</code> file.
 ![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_blur_mix.png)
 
 ### Motion blur removal - 2
+Some examples for object detection
 ![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/supp_blur_detect.png)
 
 ### Haze removal - 1
