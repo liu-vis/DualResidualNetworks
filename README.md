@@ -47,39 +47,39 @@ Please find them
 
 ## Datasets
 ### Gaussian noise removal
-[BSD500-gray](https://drive.google.com/file/d/1-Q0tCxzisHm7m_qMJfekOy4-oGzfIocj/view?usp=sharing) (used in our paper)\
-If you also want the original BSD500, click [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
+- [BSD500-gray](https://drive.google.com/file/d/1-Q0tCxzisHm7m_qMJfekOy4-oGzfIocj/view?usp=sharing) (used in our paper)
+- If you also want the original BSD500, click [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
 
 ### Real-world noise removal
-[RealNoise-HKPolyU](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset)
+- [RealNoise-HKPolyU](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset)
     ([paper](https://arxiv.org/pdf/1804.02603.pdf))
     
-[RealNoise-test](https://drive.google.com/file/d/1jopTnkHjukCHQ5Og4gwwEdvBQxGV7Bhf/view?usp=sharing)\
-This is the test-set used in our paper. We generated it by random cropping on 10 HR samples.
+- [RealNoise-test](https://drive.google.com/file/d/1jopTnkHjukCHQ5Og4gwwEdvBQxGV7Bhf/view?usp=sharing)
+- This is the test-set used in our paper. We generated it by random cropping on 10 HR samples.
 
 ### Motion blur removal
-[GoPro dataset](https://github.com/SeungjunNah/DeepDeblur_release)
+- [GoPro dataset](https://github.com/SeungjunNah/DeepDeblur_release)
     ([paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf))
 
-[Car dataset](https://github.com/KupynOrest/DeblurGAN)
+- [Car dataset](https://github.com/KupynOrest/DeblurGAN)
     ([paper](https://arxiv.org/pdf/1711.07064.pdf))
 
 ### Haze removal
-[DCPDN dataset](https://github.com/hezhangsprinter/DCPDN)
+- [DCPDN dataset](https://github.com/hezhangsprinter/DCPDN)
     ([paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Densely_Connected_Pyramid_CVPR_2018_paper.pdf))
 
-[RESIDE dataset](https://sites.google.com/view/reside-dehaze-datasets/reside-standard?authuser=0)
+- [RESIDE dataset](https://sites.google.com/view/reside-dehaze-datasets/reside-standard?authuser=0)
 ([paper](https://arxiv.org/pdf/1712.04143.pdf))
 
 ### Raindrop removal
-[Raindrop dataset](https://github.com/rui1996/DeRaindrop)
+- [Raindrop dataset](https://github.com/rui1996/DeRaindrop)
     ([paper](https://arxiv.org/pdf/1711.10098.pdf))
 
 ### Rain-streak removal
-[DIDMDN dataset](https://github.com/hezhangsprinter/DID-MDN)
+- [DIDMDN dataset](https://github.com/hezhangsprinter/DID-MDN)
     ([paper](https://arxiv.org/pdf/1802.07412.pdf))
     
-[DDN dataset](https://xueyangfu.github.io/projects/cvpr2017.html)
+- [DDN dataset](https://xueyangfu.github.io/projects/cvpr2017.html)
     ([paper](https://xueyangfu.github.io/paper/2017/cvpr/cvpr2017.pdf))
     
 
