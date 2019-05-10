@@ -11,7 +11,7 @@ Tohoku University<sup>1</sup>, RIKEN Center for AIP<sup>2</sup>
 
 2) Citation
 
-3) Numerical Results (coming soon)
+3) Numerical Results
 
 4) Visual Results
 
@@ -38,7 +38,7 @@ year={2019},
 ```
 
 ## Numerical results
-Coming soon
+Please find them in the <code>test/results_confirmed.txt</code> file.
 
 ## Visual results
 ### Gaussian noise removal
