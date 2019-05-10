@@ -42,7 +42,7 @@ year={2019},
 Please find them in the <code>test/results_confirmed.txt</code> file.
 
 ## Models
-Please find them at 
+Please find them
 [here](https://drive.google.com/file/d/1Fi6B3Lm_8afu_Ak8LxGihXJTd2XGx9Y2/view?usp=sharing)
 
 ## Visual results
