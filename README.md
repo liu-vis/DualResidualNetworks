@@ -51,7 +51,7 @@ Please find them
 If you also want the original BSD500, click [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
 
 ### Real-world noise removal
-[RealNoise-original](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset)\
+[RealNoise-HKPolyU](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset)\
 Also check this paper ([arXiv](https://arxiv.org/pdf/1804.02603.pdf)) for more info. for the dataset.
 
 [RealNoise-test](https://drive.google.com/file/d/1jopTnkHjukCHQ5Og4gwwEdvBQxGV7Bhf/view?usp=sharing) \
