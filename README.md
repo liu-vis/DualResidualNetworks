@@ -71,7 +71,17 @@ This is the test-set used in our paper. We generated it by random cropping on 10
 [RESIDE dataset](https://sites.google.com/view/reside-dehaze-datasets/reside-standard?authuser=0)
 ([paper](https://arxiv.org/pdf/1712.04143.pdf))
 
+### Raindrop removal
+[Raindrop dataset](https://github.com/rui1996/DeRaindrop)
+    ([paper](https://arxiv.org/pdf/1711.10098.pdf))
 
+### Rain-streak removal
+[DIDMDN dataset](https://github.com/hezhangsprinter/DID-MDN)
+    ([paper](https://arxiv.org/pdf/1802.07412.pdf))
+    
+[DDN dataset](https://xueyangfu.github.io/projects/cvpr2017.html)
+    ([paper](https://xueyangfu.github.io/paper/2017/cvpr/cvpr2017.pdf))
+    
 
 ## Visual results
 ### Gaussian noise removal
