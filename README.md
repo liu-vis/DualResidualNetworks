@@ -47,15 +47,15 @@ Please find them
 
 ## Datasets
 ### Gaussian noise removal
-- [BSD500-gray](https://drive.google.com/file/d/1-Q0tCxzisHm7m_qMJfekOy4-oGzfIocj/view?usp=sharing) (used in our paper)
-- If you also want the original BSD500, click [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
+- [BSD500-gray](https://drive.google.com/file/d/1-Q0tCxzisHm7m_qMJfekOy4-oGzfIocj/view?usp=sharing) (used in our paper)\
+If you also want the original BSD500, click [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
 
 ### Real-world noise removal
 - [RealNoise-HKPolyU](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset)
     ([paper](https://arxiv.org/pdf/1804.02603.pdf))
     
-- [RealNoise-test](https://drive.google.com/file/d/1jopTnkHjukCHQ5Og4gwwEdvBQxGV7Bhf/view?usp=sharing)
-- This is the test-set used in our paper. We generated it by random cropping on 10 HR samples.
+- [RealNoise-test](https://drive.google.com/file/d/1jopTnkHjukCHQ5Og4gwwEdvBQxGV7Bhf/view?usp=sharing)\
+This is the test-set used in our paper. We generated it by random cropping on 10 HR samples.
 
 ### Motion blur removal
 - [GoPro dataset](https://github.com/SeungjunNah/DeepDeblur_release)
