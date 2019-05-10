@@ -43,7 +43,20 @@ Please find them in the <code>test/results_confirmed.txt</code> file.
 
 ## Models
 Please find them
-[here](https://drive.google.com/file/d/1Fi6B3Lm_8afu_Ak8LxGihXJTd2XGx9Y2/view?usp=sharing)
+[here](https://drive.google.com/file/d/1Fi6B3Lm_8afu_Ak8LxGihXJTd2XGx9Y2/view?usp=sharing).
+
+## Datasets
+### Gaussian noise removal
+[BSD500-gray](https://drive.google.com/file/d/1-Q0tCxzisHm7m_qMJfekOy4-oGzfIocj/view?usp=sharing) (used in our paper)\
+If you also want the original BSD500, click [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
+
+### Real-world noise removal
+[RealNoise-original](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset)\
+Also check this paper ([arXiv](https://arxiv.org/pdf/1804.02603.pdf)) for more info. for the dataset.
+
+[RealNoise-test](https://drive.google.com/file/d/1jopTnkHjukCHQ5Og4gwwEdvBQxGV7Bhf/view?usp=sharing) \
+This is the test-set used in our paper. We generated it by random cropping on 10 HR samples.
+
 
 ## Visual results
 ### Gaussian noise removal
