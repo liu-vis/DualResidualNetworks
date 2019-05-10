@@ -82,6 +82,10 @@ This is the test-set used in our paper. We generated it by random cropping on 10
 - [DDN dataset](https://xueyangfu.github.io/projects/cvpr2017.html)
     ([paper](https://xueyangfu.github.io/paper/2017/cvpr/cvpr2017.pdf))
     
+## Test
+1. hi there
+1. hi hi there
+
 
 ## Visual results
 ### Gaussian noise removal
