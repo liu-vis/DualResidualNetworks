@@ -51,11 +51,26 @@ Please find them
 If you also want the original BSD500, click [here](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
 
 ### Real-world noise removal
-[RealNoise-HKPolyU](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset)\
-Also check this paper ([arXiv](https://arxiv.org/pdf/1804.02603.pdf)) for more info. for the dataset.
-
-[RealNoise-test](https://drive.google.com/file/d/1jopTnkHjukCHQ5Og4gwwEdvBQxGV7Bhf/view?usp=sharing) \
+[RealNoise-HKPolyU](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset)
+    ([paper](https://arxiv.org/pdf/1804.02603.pdf))
+    
+[RealNoise-test](https://drive.google.com/file/d/1jopTnkHjukCHQ5Og4gwwEdvBQxGV7Bhf/view?usp=sharing)\
 This is the test-set used in our paper. We generated it by random cropping on 10 HR samples.
+
+### Motion blur removal
+[GoPro dataset](https://github.com/SeungjunNah/DeepDeblur_release)
+    ([paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf))
+
+[Car dataset](https://github.com/KupynOrest/DeblurGAN)
+    ([paper](https://arxiv.org/pdf/1711.07064.pdf))
+
+### Haze removal
+[DCPDN dataset](https://github.com/hezhangsprinter/DCPDN)
+    ([paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Densely_Connected_Pyramid_CVPR_2018_paper.pdf))
+
+[RESIDE dataset](https://sites.google.com/view/reside-dehaze-datasets/reside-standard?authuser=0)
+([paper](https://arxiv.org/pdf/1712.04143.pdf))
+
 
 
 ## Visual results
