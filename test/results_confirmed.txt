@@ -1,0 +1,40 @@
+Noise removal (DuRN-P)
+ - Gaussian-30: 28.49 / 0.8158
+ - Gaussian-50: 26.36 / 0.7355
+ - Gaussian-70: 25.06 / 0.6761
+ - Real-world: 36.83 / 0.9636
+
+Motion blur removal (DuRN-U)
+ - GoPro: 29.90 / 0.9101
+ - CarDataset: 29.23 / 0.8805
+ 
+Haze removal (DuRN-US):
+ - RESIDE: 32.12 / 0.9803
+ - DCPDNData: 32.60 / 0.9828
+ 
+RainDrop removal (DuRN-S-P)
+ - RainDropData-test_a: 31.24 / 0.9259 (Note: input/output is BGR/BGR)
+ - RainDropData-test_b: 25.32 / 0.8174 (Note: input/output is BGR/BGR) 
+
+Rain-streak removal (DuRN-S)
+ - DIDMDN_Data: 33.21 / 0.9251
+ - DDN_Data (on a train/test split generated with random-shuffling): 31.30 / 0.9194
+ - DDN_Data_b (on a train/test split where 1~650 / 651~1000 are used for train / test): 30.61 / 0.9136
+ - Note: The DDN_Data_b split is used in the NLEDN paper. 
+
+-----------
+
+PSNR / SSIM are computed in gray color space:
+ - Gaussian noise removal
+
+ 
+PSNR / SSIM are computed in RGB color space:
+ - Real-world noise removal
+ - Motion blur removal
+ - Haze removal
+
+ 
+PSNR / SSIM are computed in YCR_CB color space:
+ - Raindrop removal
+ - Rain-streak removal
+
