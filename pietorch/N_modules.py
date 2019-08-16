@@ -1,7 +1,6 @@
 import numpy as np
 import torch
 import random
-import StringIO
 import torchvision
 import math
 import torch.nn as nn
@@ -74,3 +73,32 @@ class SELayer(nn.Module):
         y = self.fc(y).view(b, c, 1, 1)
         return x * y    
         
+
+def CropSample(im_input, label, crop_size):
+    if isinstance(label, np.ndarray):
+        label = Image.fromarray(label)
+    if isinstance(im_input, np.ndarray):
+        im_input = Image.fromarray(im_input)
+
+    W, H = label.size
+    x_offset = random.randint(0, W - crop_size)
+    y_offset = random.randint(0, H - crop_size)
+    label    = label.crop((x_offset, y_offset,
+                           x_offset+crop_size, y_offset+crop_size))
+    im_input = im_input.crop((x_offset, y_offset,
+                              x_offset+crop_size, y_offset+crop_size))
+    return im_input, label
+    
+
+def DataAugmentation(im_input, label):
+    if random.random() > 0.5:
+        label    = label.transpose(   Image.FLIP_LEFT_RIGHT)
+        im_input = im_input.transpose(Image.FLIP_LEFT_RIGHT)
+#    if random.random() > 0.5:
+#        label    = label.transpose(   Image.FLIP_TOP_BOTTOM)
+#        im_input = im_input.transpose(Image.FLIP_TOP_BOTTOM)
+#    if random.random() > 0.5:
+#        angle    = random.choice([90, 180, 270])
+#        label    = label.rotate(angle)
+#        im_input = im_input.rotate(angle)
+    return im_input, label

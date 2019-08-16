@@ -23,7 +23,6 @@ from skimage.measure import compare_ssim as ski_ssim
 
 #------- Option --------
 tag = 'DuRN-US'
-
 # Choose a dataset.
 data_name = 'RESIDE' # 'DCPDNData' or 'RESIDE'
 #-----------------------
@@ -35,7 +34,7 @@ elif data_name == 'DCPDNData':
     testroot = "../data/"+data_name+"/TestA/"
     test_list_pth = '../lists/'+data_name+'/testA_list.txt'
 else:
-    print 'Unknown dataset name.'
+    print('Unknown dataset name.')
 
 Pretrained = '../trainedmodels/'+data_name+'/'+tag+'_model.pt'    
 show_dst = '../cleaned_images/'+data_name+'/'+tag+'/'
@@ -55,7 +54,7 @@ cleaner.eval()
 ave_psnr = 0.0
 ave_ssim = 0.0
 ct_num = 0
-print 'Start testing '+tag+'...'
+print('Start testing '+tag+'...')
 for i, data in enumerate(dataloader):
     hazy, label, im_name = data
     if data_name == 'RESIDE':
@@ -102,10 +101,10 @@ for i, data in enumerate(dataloader):
         Image.fromarray(res).save(show_dst+im_name[0].split('.')[0]+'.png')
 
     else:
-        print "Unknown dataset name."
+        print("Unknown dataset name.")
 
-print 'psnr: '+str(ave_psnr/float(ct_num))+'.'
-print 'ssim: '+str(ave_ssim/float(ct_num))+'.'
-print 'Test done.'
+print('psnr: '+str(ave_psnr/float(ct_num))+'.')
+print('ssim: '+str(ave_ssim/float(ct_num))+'.')
+print('Test done.')
 
 

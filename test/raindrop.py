@@ -76,6 +76,6 @@ for i, data in enumerate(dataloader):
     ave_psnr+= psnr(res, label, data_range=255)
     ave_ssim+= ski_ssim(res, label, data_range=255, multichannel=False)
     
-print 'psnr: '+str(ave_psnr/ct_num)
-print 'ssim: '+str(ave_ssim/ct_num)
-print 'Test done.'
+print('psnr: '+str(ave_psnr/ct_num))
+print('ssim: '+str(ave_ssim/ct_num))
+print('Test done.')

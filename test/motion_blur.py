@@ -40,7 +40,7 @@ elif data_name == 'CarDataset':
     testroot = "../data/"+data_name+"/"
     test_list_pth = "../lists/"+data_name+"/test_list.txt"
 else:
-    print 'Unknown dataset name.'
+    print('Unknown dataset name.')
 
 Pretrained = '../trainedmodels/GoPro/'+tag+'_model.pt'    
 show_dst = '../cleaned_images/'+data_name+'/'+tag+'/'
@@ -61,7 +61,7 @@ ave_psnr = 0.0
 ave_ssim = 0.0
 ct_num = 0
 
-print 'Start testing '+tag+'...'
+print('Start testing '+tag+'...')
 for i, data in enumerate(dataloader):
     blur, label, im_name = data
     ct_num+= 1
@@ -87,8 +87,8 @@ for i, data in enumerate(dataloader):
     else:
         Image.fromarray(res).save(show_dst+'_'.join(im_name[0].split('/')))
 
-print 'psnr: '+str(ave_psnr/float(ct_num))+'.'
-print 'ssim: '+str(ave_ssim/float(ct_num))+'.'
-print 'Test done.'
+print('psnr: '+str(ave_psnr/float(ct_num))+'.')
+print('ssim: '+str(ave_ssim/float(ct_num))+'.')
+print('Test done.')
 
 

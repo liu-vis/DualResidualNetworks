@@ -136,9 +136,9 @@ for i, data in enumerate(dataloader):
                 ave_ssim+= ski_ssim(res, label_v, data_range=255, multichannel=False)    
 
     else:
-        print 'Unknown dataset name.'
+        print('Unknown dataset name.')
 
         
-print 'psnr: '+str(ave_psnr/ct_num)
-print 'ssim: '+str(ave_ssim/ct_num)
-print 'Test done.'
+print('psnr: '+str(ave_psnr/ct_num))
+print('ssim: '+str(ave_ssim/ct_num))
+print('Test done.')

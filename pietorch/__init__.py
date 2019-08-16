@@ -1,3 +1,3 @@
 # hi
 Home = '../'
-from N_modules import SELayer
+from .N_modules import SELayer
