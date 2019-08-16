@@ -19,7 +19,7 @@ Tohoku University<sup>1</sup>, RIKEN Center for AIP<sup>2</sup>
 
 6) Test
 
-7) Train (in preparation)
+7) Train 
 
 8) Visual Results
 
@@ -34,6 +34,13 @@ In this paper, we study design of deep neural networks for tasks of image restor
 title={Dual Residual Networks Leveraging the Potential of Paired Operations for Image Restoration},
 author={Liu, Xing and Suganuma, Masanori and Sun, Zhun and Okatani, Takayuki},
 booktitle={arXiv preprint arXiv:1903.08817},
+year={2019},
+}
+
+@inproceedings{DuRN_cvpr19,
+title={Dual Residual Networks Leveraging the Potential of Paired Operations for Image Restoration},
+author={Liu, Xing and Suganuma, Masanori and Sun, Zhun and Okatani, Takayuki},
+booktitle={Proc. Conference on Computer Vision and Pattern Recognition},
 year={2019},
 }
 ```
