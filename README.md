@@ -19,7 +19,7 @@ Tohoku University<sup>1</sup>, RIKEN Center for AIP<sup>2</sup>
 
 6) Test
 
-7) Train (coming soon)
+7) Train (in preparation)
 
 8) Visual Results
 
