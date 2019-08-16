@@ -30,7 +30,7 @@ In this paper, we study design of deep neural networks for tasks of image restor
 
 ## Citation
 ```
-@inproceedings{DuRN_cvpr19,
+@inproceedings{DuRN_arxiv,
 title={Dual Residual Networks Leveraging the Potential of Paired Operations for Image Restoration},
 author={Liu, Xing and Suganuma, Masanori and Sun, Zhun and Okatani, Takayuki},
 booktitle={arXiv preprint arXiv:1903.08817},
@@ -41,6 +41,7 @@ year={2019},
 title={Dual Residual Networks Leveraging the Potential of Paired Operations for Image Restoration},
 author={Liu, Xing and Suganuma, Masanori and Sun, Zhun and Okatani, Takayuki},
 booktitle={Proc. Conference on Computer Vision and Pattern Recognition},
+pages={7007-7016},
 year={2019},
 }
 ```
