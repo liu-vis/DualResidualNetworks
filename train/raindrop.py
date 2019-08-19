@@ -101,5 +101,5 @@ for epoch in range(epoch_size):
 
     if epoch in [2000]:
         for param_group in optimizer.param_groups:
-            param_group['lr']*= 0.5
+            param_group['lr']*= 0.1
 
