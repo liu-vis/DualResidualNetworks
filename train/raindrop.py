@@ -103,7 +103,10 @@ for epoch in range(epoch_size):
         for param_group in optimizer.param_groups:
 <<<<<<< HEAD
             param_group['lr']*= 0.5
+<<<<<<< HEAD
 =======
             param_group['lr']*= 0.5
 >>>>>>> fix typo
 
+=======
+>>>>>>> 6c41d07b4dea7d85d9c2f8f12f35447aaf9e0a0a
