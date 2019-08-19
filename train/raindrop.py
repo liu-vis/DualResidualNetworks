@@ -25,13 +25,13 @@ from pietorch.pytorch_ssim import ssim as ssim
 tag        = 'DuRN_S_P'
 data_name  = 'RainDrop'
 bch_size   = 24
-base_lr    = 0.0001
-epoch_size = 5000
+epoch_size = 4000     # will train 100 more epochs with l1_loss alone after the 4000 epochs.
+base_lr    = 0.0001   # will set base_lr = 0.00001 (fixed) for the 100 more epochs after the 4000 epochs.
 gpus       = 2
 crop_size  = 256
 
-ssim_weight    = 1.1  # change to 0   after 4000 epochs
-l1_loss_weight = 0.75 # change to 1.1 after 4000 epochs
+ssim_weight    = 1.1  # will be changed to 0   after 4000 epochs.
+l1_loss_weight = 0.75 # will be changed to 1.1 after 4000 epochs.
 with_data_aug  = False
 #----------------------
 
@@ -99,7 +99,7 @@ for epoch in range(epoch_size):
         else:
             torch.save(cleaner.module.state_dict(), dstroot+'epoch_'+str(epoch+1)+'_model.pt') 
 
-    if epoch in [1000, 2000, 3000]:
+    if epoch in [2000]:
         for param_group in optimizer.param_groups:
             param_group['lr']*= 0.1    
 

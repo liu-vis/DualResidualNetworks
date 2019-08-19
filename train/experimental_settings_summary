@@ -1,0 +1,99 @@
+Note: Please adjust batch_size according to your computational resource
+
+------ Gaussian noise removal -------
+dataset       = BSD_gray
+batch_size    = 100
+learning_rate = 0.001 (initial learning rate)
+total_epochs  = 3000
+crop_size     = 64
+noise_level   = [30, 50, 70] (randomly chosen)
+
+locally_training_num = 10 (train the model 10 times on a same batch)
+learning_rate*= 0.1 at [500, 1000, 1500, 2500] epochs.
+loss = L2_loss
+--------------------------------------
+
+
+------- Real-noise removal -------
+dataset       = RealNoiseHKPoly
+batch_size    = 30
+learning_rate = 0.0001
+total_epochs  = 3500
+crop_size     = 128
+
+learning_rate*= 0.1 at [1000, 2000] epochs.
+loss = 1.1*ssim_loss + 0.75*L1_loss
+----------------------------------
+
+
+------- Motion blur removal -------
+dataset       = GoPro
+batch_size    = 10
+learning_rate = 0.0001
+total_epochs  = 5000
+crop_size     = 256
+resize_to     = (640, 360)
+
+learning_rate*= 0.1 at [2000, 4000] epochs.
+loss = 1.1*ssim_loss + 0.75*L1_loss
+-----------------------------------
+
+
+------- Haze removal -------
+dataset       = RESIDE
+batch_size    = 40
+learning_rate = 0.0001
+total_epochs  = 3000
+crop_size     = 256
+
+learning_rate*= 0.1 at [700, 1400] epochs.
+loss = 1.1*ssim_loss + 0.75*L1_loss
+------
+
+dataset       = DCPDNData
+batch_size    = 20 
+learning_rate = 0.0001
+total_epochs  = 600
+crop_size     = 256
+
+learning_rate no change
+loss = 1.1*ssim_loss + 0.75*L1_loss
+----------------------------
+
+
+------- rain-streak removal -------
+dataset       = DIDMDN_Data (or DDN_Data)
+batch_size    = 40
+learning_rate = 0.0001
+total_epochs  = 2000
+crop_size     = 64
+
+data_augmentation: Image.FLIP_LEFT_RIGHT (randomly)
+learning_rate is adjusted by torch.optim.lr_scheduler.CosineAnnealingLR()
+loss = 1.1*ssim_loss + 0.75*L1_loss
+-----------------------------------
+
+
+------- raindrop removal -------
+---- step-1 
+dataset = RainDrop
+batch_size = 24
+learning_rate = 0.0001
+total_epochs = 4000
+crop_size = 256
+
+learning_rate*= 0.5 at [2000] epochs.
+loss = 1.1*ssim_loss + 0.75*L1_loss
+
+---- step-2 
+dataset = RainDrop
+batch_size = 24
+learning_rate = 0.00001
+total_epochs = 100
+crop_size = 256
+
+learning_rate no change
+loss = 1.1*L1_loss
+---------------------------------
+
+
