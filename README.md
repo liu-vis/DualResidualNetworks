@@ -6,6 +6,11 @@ Tohoku University<sup>1</sup>, RIKEN Center for AIP<sup>2</sup>
 
 [link to the paper](https://arxiv.org/pdf/1903.08817.pdf)
 
+## News
+i) A summary of experimental settings for training is added. 
+
+ii) Some mistakes in ./train/raindrop.py are fixed.
+
 ## Table of Contents
 1) Abstract
 
