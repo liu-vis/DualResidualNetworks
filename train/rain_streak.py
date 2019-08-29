@@ -66,6 +66,8 @@ L1_loss = nn.L1Loss()
 # Start training
 print('Start training...')
 for epoch in range(epoch_size):        
+    schedular.step()
+
     for iteration, data in enumerate(dataloader):
         img, label, _ = data
         img_var   = Variable(img,   requires_grad=False).cuda()
