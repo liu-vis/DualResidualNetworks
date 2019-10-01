@@ -7,7 +7,7 @@ Tohoku University<sup>1</sup>, RIKEN Center for AIP<sup>2</sup>
 [link to the paper](https://arxiv.org/pdf/1903.08817.pdf)
 ## Happy birthday China!!  
 ![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/smalll.gif)
-（haze removal by our NEW model）
+
 
 ## News
 i) A summary of experimental settings for training is added. 
