@@ -5,9 +5,9 @@ By Xing Liu<sup>1</sup>, [Masanori Suganuma](https://scholar.google.co.jp/citati
 Tohoku University<sup>1</sup>, RIKEN Center for AIP<sup>2</sup>
 
 [link to the paper](https://arxiv.org/pdf/1903.08817.pdf)
-## Happy birthday China!! (haze removal by our new model) 
+## Happy birthday China!!  
 ![](https://github.com/liu-vis/DualResidualNetworks/blob/master/Figs/smalll.gif)
-
+（haze removal by our NEW model）
 
 ## News
 i) A summary of experimental settings for training is added. 
