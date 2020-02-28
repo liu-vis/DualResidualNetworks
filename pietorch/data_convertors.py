@@ -150,10 +150,20 @@ class ConvertImageSet(data.Dataset):
                 im_input = label.clone()
     
         elif self.data_name == 'DDN_Data':
-            label = self.transform(label)
-            im_input = im_input.transpose((3, 2, 0, 1))
-            im_input = torch.FloatTensor(im_input)
-            im_input/= 255.0
+            if not self.is_train:
+                label = self.transform(label)
+                im_input = im_input.transpose((3, 2, 0, 1))
+                im_input = torch.FloatTensor(im_input)
+                im_input/= 255.0
+            else:
+                if not self.crop_size is None:
+                    im_input, label = CropSample(im_input, label, self.crop_size)
+                if self.with_aug:
+                    im_input, label = DataAugmentation(im_input, label)
+
+                im_input = self.transform(im_input)
+                label    = self.transform(label)
+ 
         else:
             pass
             
@@ -291,7 +301,7 @@ def DDNdata_loader(dataroot, im_name, is_train):
     
     if is_train:
         var = random.choice(np.arange(1, 15, 1))
-        rainy_pth = dataroot+'rain_image/'+im_name.split('.')[0]+str(var)+'.jpg'
+        rainy_pth = dataroot+'rain_image/'+im_name.split('.')[0]+'_'+str(var)+'.jpg'
         rainy = Image.open(rainy_pth).convert("RGB")
     else:
         for var in np.arange(1, 15, 1):
